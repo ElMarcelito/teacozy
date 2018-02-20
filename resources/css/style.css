@@ -56,7 +56,14 @@ h1, h2, h3, h4, h5, p {
   align-self: center;
 }
 
-#mission {
+.anchor {
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+.mission {
   height: 700px;
   width: 100%;
   background-image: url(../images/img-mission-background.jpg);
@@ -81,6 +88,12 @@ h1, h2, h3, h4, h5, p {
 }
 
 #teapromo {
+  display: block;
+  height: 0px; 
+  visibility: hidden;
+}
+
+.teapromo {
   display: flex;
   flex-flow: column;
   width: 1000px;
@@ -100,7 +113,7 @@ h1, h2, h3, h4, h5, p {
   opacity: 0.9;
 }
 
-#locations {
+.locations {
   height: 500px;
   width: 100%;
   background-image: url(../images/img-locations-background.jpg);
@@ -128,7 +141,7 @@ h1, h2, h3, h4, h5, p {
   padding: 15px 0 10px 0;
 }
 
-#contact {
+.contact {
   height: 180px;
   width: 100%;
   display: flex;
