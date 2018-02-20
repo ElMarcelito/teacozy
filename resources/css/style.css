@@ -13,7 +13,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 0 10px 0 10px;
   border-bottom: 1px solid seashell;
   display: flex;
   justify-content: space-between;
@@ -31,6 +30,7 @@ h1, h2, h3, h4, h5, p {
 
 .logo {
   width: 160px;
+  padding-left: 10px;
 }
 
 .navigation {
